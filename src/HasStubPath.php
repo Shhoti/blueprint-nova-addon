@@ -1,6 +1,6 @@
 <?php
 
-namespace shhoti\BlueprintNovaAddon;
+namespace Shhoti\BlueprintNovaAddon;
 
 trait HasStubPath
 {

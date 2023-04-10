@@ -1,12 +1,12 @@
 <?php
 
-namespace shhoti\BlueprintNovaAddon\Tasks;
+namespace Shhoti\BlueprintNovaAddon\Tasks;
 
 use Blueprint\Models\Column;
 use Closure;
 use Illuminate\Support\Collection;
-use shhoti\BlueprintNovaAddon\Contracts\Task;
-use shhoti\BlueprintNovaAddon\Translators\Rules;
+use Shhoti\BlueprintNovaAddon\Contracts\Task;
+use Shhoti\BlueprintNovaAddon\Translators\Rules;
 
 class AddRegularFields implements Task
 {

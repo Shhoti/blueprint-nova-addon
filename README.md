@@ -1,7 +1,7 @@
 # Blueprint Nova Addon
 
-![Build Status](https://travis-ci.org/shhoti/blueprint-nova-addon.svg?branch=master)
-[![Total Downloads](https://img.shields.io/packagist/dt/shhoti/blueprint-nova-addon.svg?style=flat)](https://packagist.org/packages/shhoti/blueprint-nova-addon)
+![Build Status](https://travis-ci.org/Shhoti/blueprint-nova-addon.svg?branch=master)
+[![Total Downloads](https://img.shields.io/packagist/dt/Shhoti/blueprint-nova-addon.svg?style=flat)](https://packagist.org/packages/Shhoti/blueprint-nova-addon)
 
 :mega: Shoutout to [Jason McCreary](https://github.com/jasonmccreary) whose [Blueprint](https://github.com/laravel-shift/blueprint) package lays the groundwork for this small addon. Thank you Jason :raised_hands:
 
@@ -11,7 +11,7 @@ Installing this addon will allow you to generate your Nova resources with the `p
 You can install this package and **Blueprint** via composer:
 
 ```bash
-composer require --dev shhoti/blueprint-nova-addon
+composer require --dev Shhoti/blueprint-nova-addon
 ```
 
 > :warning: You need to have [laravel nova](https://nova.laravel.com/) installed in order for the resource generation to take place!
@@ -111,7 +111,7 @@ If you discover any security related issues, please email krishan.koenig@gmail.c
 
 ## Credits
 
-- [Krishan König](https://github.com/shhoti)
+- [Krishan König](https://github.com/Shhoti)
 - [All Contributors](../../contributors)
 
 ## License

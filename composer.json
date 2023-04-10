@@ -1,11 +1,11 @@
 {
-    "name": "shhoti/blueprint-nova-addon",
+    "name": "Shhoti/blueprint-nova-addon",
     "description": "",
     "keywords": [
-        "shhoti",
+        "Shhoti",
         "blueprint-nova-addon"
     ],
-    "homepage": "https://github.com/shhoti/blueprint-nova-addon",
+    "homepage": "https://github.com/Shhoti/blueprint-nova-addon",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "shhoti\\BlueprintNovaAddon\\": "src"
+            "Shhoti\\BlueprintNovaAddon\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "shhoti\\BlueprintNovaAddon\\Tests\\": "tests"
+            "Shhoti\\BlueprintNovaAddon\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,7 +44,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "shhoti\\BlueprintNovaAddon\\BlueprintNovaAddonServiceProvider"
+                "Shhoti\\BlueprintNovaAddon\\BlueprintNovaAddonServiceProvider"
             ]
         }
     }

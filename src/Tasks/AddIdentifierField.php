@@ -1,11 +1,11 @@
 <?php
 
-namespace shhoti\BlueprintNovaAddon\Tasks;
+namespace Shhoti\BlueprintNovaAddon\Tasks;
 
 use Blueprint\Models\Column;
 use Blueprint\Models\Model;
 use Closure;
-use shhoti\BlueprintNovaAddon\Contracts\Task;
+use Shhoti\BlueprintNovaAddon\Contracts\Task;
 
 class AddIdentifierField implements Task
 {

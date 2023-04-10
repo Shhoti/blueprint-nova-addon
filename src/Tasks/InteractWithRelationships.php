@@ -1,6 +1,6 @@
 <?php
 
-namespace shhoti\BlueprintNovaAddon\Tasks;
+namespace Shhoti\BlueprintNovaAddon\Tasks;
 
 use Blueprint\Models\Column;
 use Illuminate\Support\Collection;

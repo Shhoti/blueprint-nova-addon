@@ -1,9 +1,9 @@
 <?php
 
-namespace shhoti\BlueprintNovaAddon\Tasks;
+namespace Shhoti\BlueprintNovaAddon\Tasks;
 
 use Closure;
-use shhoti\BlueprintNovaAddon\Contracts\Task;
+use Shhoti\BlueprintNovaAddon\Contracts\Task;
 
 class RemapImports implements Task
 {

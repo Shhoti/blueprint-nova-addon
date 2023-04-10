@@ -1,6 +1,6 @@
 <?php
 
-namespace shhoti\BlueprintNovaAddon\Contracts;
+namespace Shhoti\BlueprintNovaAddon\Contracts;
 
 use Closure;
 

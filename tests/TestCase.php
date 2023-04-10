@@ -1,8 +1,8 @@
 <?php
 
-namespace shhoti\BlueprintNovaAddon\Tests;
+namespace Shhoti\BlueprintNovaAddon\Tests;
 
-use shhoti\BlueprintNovaAddon\BlueprintNovaAddonServiceProvider;
+use Shhoti\BlueprintNovaAddon\BlueprintNovaAddonServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra

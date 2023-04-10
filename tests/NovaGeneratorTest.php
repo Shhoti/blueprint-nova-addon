@@ -1,15 +1,15 @@
 <?php
 
-namespace shhoti\BlueprintNovaAddon\Tests;
+namespace Shhoti\BlueprintNovaAddon\Tests;
 
 use Blueprint\Blueprint;
 use Blueprint\Tree;
-use shhoti\BlueprintNovaAddon\HasStubPath;
-use shhoti\BlueprintNovaAddon\NovaGenerator;
-use shhoti\BlueprintNovaAddon\Tasks\AddIdentifierField;
-use shhoti\BlueprintNovaAddon\Tasks\AddRegularFields;
-use shhoti\BlueprintNovaAddon\Tasks\AddRelationshipFields;
-use shhoti\BlueprintNovaAddon\Tasks\AddTimestampFields;
+use Shhoti\BlueprintNovaAddon\HasStubPath;
+use Shhoti\BlueprintNovaAddon\NovaGenerator;
+use Shhoti\BlueprintNovaAddon\Tasks\AddIdentifierField;
+use Shhoti\BlueprintNovaAddon\Tasks\AddRegularFields;
+use Shhoti\BlueprintNovaAddon\Tasks\AddRelationshipFields;
+use Shhoti\BlueprintNovaAddon\Tasks\AddTimestampFields;
 
 class NovaGeneratorTest extends TestCase
 {

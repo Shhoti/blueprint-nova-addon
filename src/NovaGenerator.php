@@ -1,6 +1,6 @@
 <?php
 
-namespace shhoti\BlueprintNovaAddon;
+namespace Shhoti\BlueprintNovaAddon;
 
 use Blueprint\Blueprint;
 use Blueprint\Contracts\Generator;
@@ -8,10 +8,10 @@ use Blueprint\Models\Model;
 use Blueprint\Tree;
 use Illuminate\Pipeline\Pipeline;
 use Illuminate\Support\Str;
-use shhoti\BlueprintNovaAddon\Contracts\Task;
-use shhoti\BlueprintNovaAddon\Tasks\AddResourceImportIfRequired;
-use shhoti\BlueprintNovaAddon\Tasks\AddTimestampFields;
-use shhoti\BlueprintNovaAddon\Tasks\RemapImports;
+use Shhoti\BlueprintNovaAddon\Contracts\Task;
+use Shhoti\BlueprintNovaAddon\Tasks\AddResourceImportIfRequired;
+use Shhoti\BlueprintNovaAddon\Tasks\AddTimestampFields;
+use Shhoti\BlueprintNovaAddon\Tasks\RemapImports;
 
 class NovaGenerator implements Generator
 {
