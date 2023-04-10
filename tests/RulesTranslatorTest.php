@@ -1,9 +1,9 @@
 <?php
 
-namespace Naoray\BlueprintNovaAddon\Tests;
+namespace shhoti\BlueprintNovaAddon\Tests;
 
 use Blueprint\Models\Column;
-use Naoray\BlueprintNovaAddon\Translators\Rules;
+use shhoti\BlueprintNovaAddon\Translators\Rules;
 
 class RulesTranslatorTest extends TestCase
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Naoray\BlueprintNovaAddon\Tasks;
+namespace shhoti\BlueprintNovaAddon\Tasks;
 
 use Blueprint\Models\Column;
 use Closure;
 use Illuminate\Support\Collection;
-use Naoray\BlueprintNovaAddon\Contracts\Task;
-use Naoray\BlueprintNovaAddon\Translators\Rules;
+use shhoti\BlueprintNovaAddon\Contracts\Task;
+use shhoti\BlueprintNovaAddon\Translators\Rules;
 
 class AddRegularFields implements Task
 {

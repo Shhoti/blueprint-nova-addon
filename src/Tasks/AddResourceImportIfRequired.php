@@ -1,10 +1,10 @@
 <?php
 
-namespace Naoray\BlueprintNovaAddon\Tasks;
+namespace shhoti\BlueprintNovaAddon\Tasks;
 
 use Closure;
 use Illuminate\Support\Str;
-use Naoray\BlueprintNovaAddon\Contracts\Task;
+use shhoti\BlueprintNovaAddon\Contracts\Task;
 
 class AddResourceImportIfRequired implements Task
 {

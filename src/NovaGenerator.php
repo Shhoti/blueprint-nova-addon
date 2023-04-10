@@ -1,6 +1,6 @@
 <?php
 
-namespace Naoray\BlueprintNovaAddon;
+namespace shhoti\BlueprintNovaAddon;
 
 use Blueprint\Blueprint;
 use Blueprint\Contracts\Generator;
@@ -8,10 +8,10 @@ use Blueprint\Models\Model;
 use Blueprint\Tree;
 use Illuminate\Pipeline\Pipeline;
 use Illuminate\Support\Str;
-use Naoray\BlueprintNovaAddon\Contracts\Task;
-use Naoray\BlueprintNovaAddon\Tasks\AddResourceImportIfRequired;
-use Naoray\BlueprintNovaAddon\Tasks\AddTimestampFields;
-use Naoray\BlueprintNovaAddon\Tasks\RemapImports;
+use shhoti\BlueprintNovaAddon\Contracts\Task;
+use shhoti\BlueprintNovaAddon\Tasks\AddResourceImportIfRequired;
+use shhoti\BlueprintNovaAddon\Tasks\AddTimestampFields;
+use shhoti\BlueprintNovaAddon\Tasks\RemapImports;
 
 class NovaGenerator implements Generator
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Naoray\BlueprintNovaAddon\Translators;
+namespace shhoti\BlueprintNovaAddon\Translators;
 
 use Blueprint\Models\Column;
 use Blueprint\Translators\Rules as BlueprintRules;
