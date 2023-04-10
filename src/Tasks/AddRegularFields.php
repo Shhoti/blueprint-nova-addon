@@ -10,8 +10,8 @@ use Shhoti\BlueprintNovaAddon\Translators\Rules;
 
 class AddRegularFields implements Task
 {
-    const INDENT = '            ';
-    const INDENT_PLUS = '                ';
+    const INDENT = '                    ';
+    const INDENT_PLUS = '                       ';
 
     public function handle($data, Closure $next): array
     {
